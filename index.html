@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <nav>
     <a href="#/">Home</a>
     <a href="#/front">Front</a>
@@ -19,10 +18,7 @@
     window.$docsify = {
       name: 'Interview',
       repo: 'https://github.com/doromones/interview',
-      loadSidebar: false,
-      plugins: [
-        EditOnGithubPlugin.create('https://github.com/doromones/interview/blob/master')
-      ]
+      loadSidebar: false
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
